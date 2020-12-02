@@ -21,5 +21,11 @@
         x.name = name 
         x 
       end 
+      
+      def self.create_by_name(name)
+        x = self.new_by_name(name)
+        x.save 
+        x 
+      end 
      
     end
