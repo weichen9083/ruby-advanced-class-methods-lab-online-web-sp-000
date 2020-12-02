@@ -39,5 +39,24 @@
           self.create_by_name(name)
         end 
       end 
+      
+      def self.alphabetical 
+        self.all.sort_by
+      end 
+      
+      
+      
+      
+      
+      
+    
+      
+      
+      
+      
+      
+      
+      
+      
      
     end
