@@ -47,7 +47,7 @@
       def self.new_from_filename(name)
         splited_name = name.split("-")
         x = self.create_by_name(splited_name[1].chomp(".mp3").strip)
-        x.artist_name = splited_name[0]
+        x.artist_name = splited_name[0].strip
         x
         
       end 
