@@ -11,7 +11,7 @@
       end
       
       def self.create
-        self.all << self 
+        save 
       end 
      
     end
