@@ -59,7 +59,7 @@
         
       end 
       
-      def self.destory_all
+      def self.destroy_all
         self.all.clear 
       end 
       
