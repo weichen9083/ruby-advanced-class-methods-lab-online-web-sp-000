@@ -54,6 +54,9 @@
       
       
       def self.create_from_filename(name)
+        x = self.new_from_filename(name)
+        x
+        
       end 
       
       
