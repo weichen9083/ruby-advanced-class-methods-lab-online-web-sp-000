@@ -11,7 +11,7 @@
       end
       
       def self.create
-        self.save 
+        self.new 
       end 
      
     end
