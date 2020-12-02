@@ -11,8 +11,9 @@
       end
       
       def self.create
-        self.new 
-        self.save
+        x = self.new 
+        x.save 
+        x
       end 
      
     end
