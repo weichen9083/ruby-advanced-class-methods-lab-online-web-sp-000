@@ -59,16 +59,14 @@
         
       end 
       
+      def self.destory_all
+        self.all.clear 
+      end 
       
       
       
       
     
-      
-      
-      
-      
-      
       
       
       
