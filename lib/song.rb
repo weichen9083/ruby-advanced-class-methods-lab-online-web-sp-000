@@ -15,5 +15,11 @@
         x.save 
         x
       end 
+      
+      def self.new_by_name(name)
+        x = self.new 
+        x.name = name 
+        x 
+      end 
      
     end
