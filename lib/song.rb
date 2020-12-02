@@ -47,8 +47,7 @@
       def self.new_from_filename(name)
         splited_name = name.split("-")
         x = self.find_or_create_by_name(splited_name[0])
-        x.artist_name = splited_name[1].delete(".mp3")
-        x
+        x.artist_name = splited_name[1].slice("mp3")
       end 
       
       
