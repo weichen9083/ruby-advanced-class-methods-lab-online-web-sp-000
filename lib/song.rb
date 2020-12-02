@@ -48,6 +48,7 @@
         splited_name = name.split("-")
         x = self.create_by_name(splited_name[0])
         x.artist_name = splited_name[1].delete(".mp3")
+        x
         
       end 
       
